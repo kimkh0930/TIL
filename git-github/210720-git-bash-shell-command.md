@@ -1,6 +1,6 @@
-##Git bash shell 명령어 정리(Window ver)
+## Git bash shell 명령어 정리(Window ver)
 
-###ls
+### ls
 
  list segment의 약어 파일/폴더 등을 보여준다.
 
@@ -8,34 +8,34 @@
   
   \*ls -a – 숨김 파일까지 포함하여 모든 파일을 보여준다.
 
-###cd
+### cd
 
  change directory의 약어 위치를 이동하는데 쓰인다.
 
-###mkdir
+### mkdir
  
  make directory의 약어 directory를 생성하는데 쓰인다.
 
-###touch 
+### touch 
  
  파일을 생성하는데 쓰인다.
 
-###mv
+### mv
 
  파일을 이동시키는데 쓰인다. / 파일의 이름을 바꿀 때도 쓰인다.
 
-###cp 
+### cp 
 
  파일을 복사하는데 쓰인다.
 
-###rm 
+### rm 
 
  파일을 삭제하는데 쓰인다.
  
- \*rm -rf – directory를 삭제한다 directory는 물리적인 개념이 아닌 path의 개념이라 삭제를 위해 -r을 추가한다 f는 force의 약어로 강제로 삭제한다는 의미 
+ \* rm -rf – directory를 삭제한다 directory는 물리적인 개념이 아닌 path의 개념이라 삭제를 위해 -r을 추가한다 f는 force의 약어로 강제로 삭제한다는 의미 
 
 
-##Git 환경설정 명령어
+## Git 환경설정 명령어
 
 ```
  $ git config --global user.name "깃허브유저네임"
@@ -46,10 +46,10 @@
 ```
 
  \* 확인은 $ git config --list
- \* 수정은 $ vi ~/.gitconfig
+ * 수정은 $ vi ~/.gitconfig
 
 
-##Git clone 명령어
+## Git clone 명령어
 
 ### git clone 레포지토리 주소
 
@@ -66,7 +66,7 @@
   \+feat: 기능개발
   \+docs: 문서
   \+fix: 버그등의 수정
-  \+test, refactor, ci, build, perf등이 존재
+  +test, refactor, ci, build, perf등이 존재
 
 ### git push origin branch이름
 
