@@ -4,9 +4,9 @@
 
  list segment의 약어 파일/폴더 등을 보여준다.
 
-  \* ls -l – line by line으로 수정시간까지 보여준다.
+  * ls -l – line by line으로 수정시간까지 보여준다.
   
-  \* ls -a – 숨김 파일까지 포함하여 모든 파일을 보여준다.
+  * ls -a – 숨김 파일까지 포함하여 모든 파일을 보여준다.
 
 ### cd
 
@@ -45,7 +45,7 @@
  $ git config --global init.defaultBranch "main"
 ```
 
- \* 확인은 $ git config --list
+ * 확인은 $ git config --list
  * 수정은 $ vi ~/.gitconfig
 
 
@@ -63,10 +63,10 @@
 
  수정된 파일을 최종적으로 local내에 저장하는 기능을한다.
  이 때 커밋 제목을 쓰게되는데 prefix를 유의하도록 한다.
-  \+feat: 기능개발
-  \+docs: 문서
-  \+fix: 버그등의 수정
-  +test, refactor, ci, build, perf등이 존재
+  + feat: 기능개발
+  + docs: 문서
+  + fix: 버그등의 수정
+  + test, refactor, ci, build, perf등이 존재
 
 ### git push origin branch이름
 
