@@ -79,7 +79,11 @@ Html에 css를 적용하기 위해 html의 특정한 요소를 선택하는 사�
  * 클래스 선택자
 
 html에서 클래스를 지정할 시 
-ex) <div class=”title”></div>
+```
+ex) 
+<div class=”title”></div>
+```
+
 css상에서 .title로 지정해 줄 수 있다. 
 
 ### 속성(Properties), 값(Value)
